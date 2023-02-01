@@ -1,0 +1,66 @@
+body{background-image:url("imagenes/fondoprincipal.jpg");
+     background-repeat:no-repeat;
+	 background-size:cover;
+	 text-align:center;
+	}
+h1{font-family:monospace;
+   font-size:30px;
+   font-style:italic;
+   text-shadow:7px 4px 5px brown,
+   5px 5px 2px yellow;
+   color:white;
+   letter-spacing:5px;
+   }
+h2{font-family:monospace;
+   color:white;
+   text-shadow:7px 4px 5px brown,
+   5px 5px 2px yellow;
+   letter-spacing:3px;
+  }
+.botonInsertar,.botonModificar,.botonCerrar,
+.botonBorrar,.botonListar,.botonBuscar{padding:3%;
+									   width:15%;
+									   margin:10px;
+									   font-size:20px;
+									   box-shadow:inset 1px 1px 100px rgba(0,0,0,0.2); 
+									   color:white;
+									   }
+.botonInsertar {background:-webkit-linear-gradient(top,#D8AFEE,#8F52B0);
+		       }
+.botonModificar {background:-webkit-linear-gradient(top,#B4DAE9,#3A8EA5);
+		        }
+.botonBorrar {background:-webkit-linear-gradient(top,#E9B4BC,#CD4D61);
+		     }			   
+.botonListar {background:-webkit-linear-gradient(top,#ACEFAF,#4D9B51);
+		     }
+.botonBuscar {background:-webkit-linear-gradient(top,#F0B840,#AB8A42);
+		     }	
+.botonCerrar {background:-webkit-linear-gradient(top,#cfb695,#9c7955);
+		     }			   
+.botonInsertar:hover,.botonModificar:hover,.botonBorrar:hover,
+.botonListar:hover,.botonBuscar:hover,.botonCerrar:hover{color:#2F1C6A;
+														}													
+hr{padding:5%;
+   background-color:lightgrey;
+   box-shadow:inset 1px 1px 100px rgba(0,0,0,0.2);
+  }				
+div{background-image:url("imagenes/fondogris.jpg");
+    background-repeat:no-repeat;
+	background-size:cover;
+	border:2px solid black;
+	border-radius:30px;
+	box-shadow:inset 1px 1px 500px rgba(0,0,0,0.2);
+	width:60%;
+	margin:0px auto;
+   }	
+a {text-decoration:none;
+   background-color:lightgrey;
+   border:1px solid black;
+   border-radius:10px;
+   padding:10px;
+  }
+a:hover {background-color:#c7554a;
+		 color:white;}
+a:active {background-color:black;
+		  color: white;
+	     }   

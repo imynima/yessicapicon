@@ -1,0 +1,49 @@
+body{background-image:url("imagenes/fondoborrar.jpg");
+	 background-repeat:no-repeat;
+	 background-size:cover;
+	 font-family:monospace;
+	 text-align:center;
+    }
+div{background-color:#F19A98;
+	width:90%;
+	border:2px solid;
+	border-radius:30px;
+	margin:0 auto;
+	box-shadow:inset 1px 1px 100px rgba(0,0,0,0.2); 
+	font-size:15px;
+	}
+h1{color:white;
+   text-shadow:1px 2px 1px black;
+  }
+.inicio{text-decoration:none;
+        background-color:lightgrey;
+        border:1px solid black;
+        border-radius:10px;
+        padding:10px;
+       }
+.inicio:hover {background-color:#c7554a;
+		 color:white;}
+.inicio:active {background-color:black;
+		  color: white;
+	     }
+.header{height:10%;
+	   }
+span{color:#B62420;
+	 font-size:20px;
+    }
+.foto{width:20%;
+     }
+table{width:98%;
+	  margin:0px auto;
+	  border-collapse:collapse;
+	 }
+table td{padding:10px 58px;
+		 border:1px solid black;
+		}
+table th{background-color:white;
+		 font-size:15px;
+		 border:2px ridge #247546;
+	    }
+hr{padding:10px;
+   background-color:#c14650
+  }

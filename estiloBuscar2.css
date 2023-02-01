@@ -1,0 +1,65 @@
+body{background-image:url("imagenes/fondobuscar.jpg");
+	 background-repeat:no-repeat;
+	 background-size:cover;
+	 font-family:monospace;
+	 text-align:center;
+    }
+div{background-color:#f3c077;
+	width:70%;
+	height:650px;
+	border:2px ridge;
+	border-radius:30px;
+	margin:0px auto;
+	box-shadow:inset 1px 1px 100px rgba(0,0,0,0.2); 
+	font-size:15px;
+	}
+.header{height:10%;
+	   }
+h1,h2{color:white;
+      text-shadow:1px 2px 1px black;
+     }
+span{color:#E84444;
+	 font-size:20px;
+    }
+.buscar{padding:5px 40px;
+		color:black;
+		background-color:white;
+	    border-left:10px solid #fa9f59;  
+		font-family:monospace;
+	   }
+.buscar:hover{background-color:#273238;
+			  color:white;
+			 }
+.buscar:active{background-color:black;
+			   color:white;
+			  }
+a {text-decoration:none;
+   background-color:lightgrey;
+   border:1px solid black;
+   border-radius:10px;
+   padding:10px;
+  }
+a:hover {background-color:#c7554a;
+		 color:white;}
+a:active {background-color:black;
+		  color: white;
+	     }
+.mod{background-color:#40879b;
+	 color:white;
+	 margin-right:10px;
+	}
+.borr{background-color:#be4e60;
+	  color:white;
+	 }
+table{width:90%;
+	  margin:0px auto;
+	 }
+table td{padding:10px 40px;
+		border:2px dashed black;
+		}
+table th{background-color:white;
+		 font-size:15px;
+		 border:2px ridge #247546;
+	    }
+.foto{width:20%;
+	 }

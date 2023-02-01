@@ -1,0 +1,63 @@
+body{background-image:url("imagenes/fondosesion2.jpg");
+     background-repeat:no-repeat;
+	 background-size:cover;
+	 text-align:center;
+	 font-family:monospace;
+	}
+div{margin-left:50px;
+	margin-right:50px;
+	background-color:#ddc0cd;
+	width:30%;
+	height:400px;
+	margin:0px auto;
+	border-radius:30px;
+	box-shadow:inset 1px 1px 100px rgba(0,0,0,0.2); 
+   }
+a {text-decoration:none;
+   background-color:lightgrey;
+   border:1px solid black;
+   border-radius:10px;
+   padding:10px;
+  }
+a:hover {background-color:#c7554a;
+		 color:white;}
+a:active {background-color:black;
+		  color: white;
+	     }
+.sesion{text-align: center;
+	    font-size:25px;
+	    margin:0px auto;
+	    letter-spacing:1px;
+	    width:30%;
+	    height:100px;
+	    background-color:#ddc0cd;
+	    display:flex;
+	    border-radius:30px;
+	    justify-content:center;
+	    align-items:center;
+	    box-shadow:inset 1px 1px 100px rgba(0,0,0,0.2); 
+		border:2px solid pink;
+		color:white;
+}
+.img{width:8%;
+    }
+.enviar {padding:10px 30px;
+		 color:white;
+		 background-color:#353439;
+	     border-left:10px solid #c7554a;
+         margin:0px auto;
+		 font-family:monospace;
+		}
+.enviar:hover{background-color:#273238;
+			 }
+.enviar:active{background-color:black;
+			   color:white;
+			  }
+.input,.input1{width:150%;
+			    padding:20px;
+			   }
+.input1 {margin-top:60px;
+        }
+table td{padding-left:100px;
+		 padding-top:25px;
+		}

@@ -1,0 +1,66 @@
+body{background-image:url("imagenes/fondomodificar.jpg");
+	 background-repeat:no-repeat;
+	 background-size:cover;
+	 font-family:monospace;
+	 text-align:center;
+    }
+div{background-color:#9abcc9;
+	width:40%;
+	height:650px;
+	border:2px solid;
+	border-radius:30px;
+	margin-left:30%;
+	box-shadow:inset 1px 1px 100px rgba(0,0,0,0.2); 
+	font-size:15px;
+	}
+h1{color:white;
+   text-shadow:1px 2px 1px black;
+  }
+a {text-decoration:none;
+   background-color:lightgrey;
+   border:1px solid black;
+   border-radius:10px;
+   padding:10px;
+  }
+a:hover {background-color:#c7554a;
+		 color:white;}
+a:active {background-color:black;
+		  color: white;
+	     }
+table td{padding-top:10px;
+		}
+.titulo{padding-left:140px;
+		font-weight:bold;
+		text-shadow:1px 2px 1px white;
+		color:black;
+       }
+input{padding:3px;
+	  height:30px;
+	 }
+.header{height:10%;
+	   }
+span{color:#E84444;
+	 font-size:20px;
+    }
+.select{padding:1%;
+	    margin-top:40px;
+	   }
+.divselect{border:2px dotted black;
+		   height:150px;
+		  }
+table th{padding-left:150px;
+		}
+.textarea,.fecha{padding:8px;
+				 width:58%;
+                }
+.modificar{padding:5px 40px;
+		   color:white;
+		   background-color:#353439;
+	       border-left:10px solid #28B3A3;  
+		   font-family:monospace;
+		  }
+.modificar:hover{background-color:#273238;
+			 }
+.modificar:active{background-color:black;
+			   color:white;
+			  }

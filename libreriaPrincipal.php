@@ -1,0 +1,19 @@
+<?php
+	if(isset($_POST["insertar"])){
+		header("Location:paginaInsertarDatos.php");
+	}elseif(isset($_POST["modificar"])){
+		header("Location:paginaModificar.php");
+	}elseif(isset($_POST["borrar"])){
+		header("Location:paginaBorrar.php");
+	}elseif(isset($_POST["listar"])){
+		header("Location:paginaListar.php");
+	}elseif(isset($_POST["buscar"])){
+		header("Location:paginaBuscar.php");
+	}elseif(isset($_POST["cerrar"])){
+		if(isset($_SESSION["usuario"])){
+			unset($_SESSION);
+			session_destroy();
+		header("Location:paginaInicial.php");
+		}
+	}
+?>

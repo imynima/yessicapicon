@@ -1,0 +1,40 @@
+body{background-image:url("imagenes/fondoinicial.jpg");
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	}
+p,h1{font-family:monospace;
+	 color:#2F1C6A;
+	}
+h1{font-size:50px;
+  }
+p{letter-spacing:2px;
+  font-size:15px;
+  font-weight:bold;
+}
+div{display:inline-block;
+   }
+.texto{margin-top:250px;
+	   margin-left:130px;
+	  }
+img {width:600px;
+	 height:400px;
+	 border:9px solid black;
+	 border-radius:60px;
+	 margin-left:100px;
+	 padding:10px;
+	 background-color:black;
+	 }
+.divAcceder{margin-top:30px;
+		   }
+.acceder {padding:10px 20px;
+		  color:white;
+		  background-color:#232323;
+	      border-left:10px solid purple;
+          margin-left:130px;
+		  font-family:monospace;
+		  }
+.acceder:hover {background-color:#2F1C6A;
+			   }
+.acceder:active {background-color:black;
+			     color:white;
+			    }

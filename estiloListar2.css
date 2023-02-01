@@ -1,0 +1,50 @@
+body{background-image:url("imagenes/fondolistado.jpg");
+	 background-repeat:no-repeat;
+	 background-size:cover;
+	 font-family:monospace;
+	 text-align:center;
+    }
+div{background-color:#9BDAB6;
+	width:64%;
+	padding:50px;
+	margin:0 auto;
+	border:5px ridge #47A56F;
+	border-radius:100px;
+	box-shadow:inset 1px 1px 100px rgba(0,0,0,0.2); 
+}
+table{border-collapse:collapse;
+	  margin:0 auto;
+	 }
+table td{padding:5px 40px;
+		border:2px dotted black;
+		}
+table th{background-color:white;
+		 font-size:15px;
+		 border:2px ridge #247546;
+	    }
+a {text-decoration:none;
+   background-color:lightgrey;
+   border:1px solid black;
+   border-radius:10px;
+   padding:10px;
+  }
+a:hover {background-color:#c7554a;
+		 color:white;}
+a:active {background-color:black;
+		  color: white;
+	     }
+h2{color:white;
+   text-shadow:1px 2px 1px black;
+  }
+.titulo{background-color:#9BDAB6;
+	    width:63%;
+	    height:30px;
+		padding-top:8px;
+		padding-bottom:60px;
+	    border:4px ridge #47A56F;
+	    border-radius:30px;
+	    box-shadow:inset 1px 1px 100px rgba(0,0,0,0.2); 
+		font-size:20px;
+	   }
+.foto{width:20%;
+     }
